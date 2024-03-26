@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bck_img">
+
+<!--    <Toolbar-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        -->
+<!--        />-->
+<!--    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вход"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать!"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выполните вход"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="или зарегистрируйтесь."
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/text_edit_border"
+        android:hint="Введите вашу почту"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="36dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/text_edit_border"
+        android:hint="Введите пароль"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#877D7D"
+        android:text="Войти"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Забыли пароль?"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Нажми сюда"
+            android:textColor="#E36523"
+            android:layout_marginLeft="12dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
